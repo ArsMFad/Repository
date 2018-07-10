@@ -5,7 +5,7 @@ start = ""
 
 
 for t in range(len(target)):
-    sym = 0
+    sym = 32
     while chr(sym) != target[t]:
         os.system("cls")
         sym += 1
