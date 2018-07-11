@@ -1,6 +1,7 @@
 import os
 
-target = ["H", "e", "l", "l", "o", ",", " ", "W", "o", "r", "l", "d", "!"]
+target = "Hello, World!"
+target = list(target)
 start = ""
 
 for t in range(len(target)):
