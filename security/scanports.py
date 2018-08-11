@@ -1,8 +1,7 @@
 import socket
-from termcolor import cprint
 
-from colorama import Fore
 import colorama
+from colorama import Fore
 
 colorama.init()
 
@@ -40,7 +39,7 @@ def scan():
 		else:
 			print(Fore.GREEN, "PORT--->", port, "[OPEN]" + Fore.RESET)
 	print("~"*50)
-	
+
 	scan.close()
 
 scan()
