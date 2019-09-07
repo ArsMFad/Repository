@@ -9,7 +9,7 @@ for t in range(len(target)):
     while chr(sym) != target[t]:
         os.system("cls")
         sym += 1
-        print (start + (chr(sym)))
+        print(start + (chr(sym)))
     start += chr(sym)
 
 # It is useless, but fun :3
